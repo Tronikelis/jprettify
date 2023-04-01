@@ -1,0 +1,10 @@
+build
+node_modules
+public
+cypress
+.next
+dist
+.eslintrc.js
+next.config.js
+jest.config.ts
+__test__
