@@ -48,6 +48,8 @@ it("should prettify an object with nested objects and arrays", () => {
         `${whitespace(6)}- value`,
     ].join("\n");
 
+    console.log(expectedOutput);
+
     expect(jPrettify(input)).toBe(expectedOutput);
 });
 
