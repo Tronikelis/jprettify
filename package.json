@@ -17,6 +17,16 @@
         "type": "git",
         "url": "https://github.com/Tronikelis/jprettify.git"
     },
+    "keywords": [
+        "json",
+        "pretty-printing",
+        "typescript",
+        "nested",
+        "objects",
+        "formatting",
+        "prettify",
+        "json-pretty-print"
+    ],
     "author": "Tronikelis",
     "license": "MIT",
     "devDependencies": {
