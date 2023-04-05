@@ -8,7 +8,7 @@ interface NestedLiteral {
         | Record<string, NestedLiteral>;
 }
 
-type Input = Literal | NestedLiteral;
+type Input = Literal | NestedLiteral | (Literal | NestedLiteral)[];
 
 export default function jPrettify(input: Input, spaces = 2): string {
     const recurse = (input: Input, span = 0): string => {

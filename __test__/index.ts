@@ -60,3 +60,11 @@ it("should allow customization of the number of spaces used for indentation", ()
 
     expect(jPrettify(input, 4)).toBe(expectedOutput);
 });
+
+it("should print out arrays normally", () => {
+    const input = [1, 2, 3];
+
+    const expectedOutput = ["- 1", "- 2", "- 3"].join("\n");
+
+    expect(jPrettify(input)).toBe(expectedOutput);
+});
